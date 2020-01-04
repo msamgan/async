@@ -4,7 +4,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 $startTime = clock('start time');
 
-exgProcess();
+exec("php proc.php");
+
+//exgProcess();
 
 $endTime = clock('end time');
 
